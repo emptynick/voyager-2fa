@@ -1,0 +1,11 @@
+/node_modules
+.DS_Store
+.idea
+vendor
+build
+/tests/Browser/console
+/tests/Browser/screenshots
+.lock
+.phpunit.result.cache
+debug.log
+list.txt

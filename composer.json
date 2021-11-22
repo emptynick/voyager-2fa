@@ -1,0 +1,28 @@
+{
+    "name": "emptynick/voyager-2fa",
+    "description": "Two-factor authentication for Voyager II",
+    "keywords": ["voyager2-plugin", "voyager", "2fa", "two", "factor", "auth", "authentication"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christoph Schweppe",
+            "email": "info@cschweppe.de"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Emptynick\\Permissions\\": "src/"
+        }
+    },
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Emptynick\\TwoFA\\TwoFAServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "spatie/laravel-permission": "^5.3"
+    }
+}
