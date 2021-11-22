@@ -1,16 +1,16 @@
 <?php
 
-namespace Emptynick\Permissions;
+namespace Emptynick\TwoFA;
 
 use Voyager\Admin\Contracts\Plugins\AuthenticationPlugin;
 use Voyager\Admin\Contracts\Plugins\Features\Provider\{JS};
 
-class Permissions implements AuthenticationPlugin, JS
+class TwoFA implements AuthenticationPlugin, JS
 {
-    public $name = 'Voyager Permissions';
-    public $description = 'Permission system for Voyager II using spatie/laravel-permission';
-    public $repository = 'emptynick/voyager-permissions';
-    public $website = 'https://github.com/emptynick/voyager-permissions';
+    public $name = 'Voyager 2FA';
+    public $description = 'Two-factor authentication for Voyager II';
+    public $repository = 'emptynick/voyager-2fa';
+    public $website = 'https://github.com/emptynick/voyager-2fa';
     public $version = '1.0.0';
 
 
