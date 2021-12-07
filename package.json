@@ -1,7 +1,7 @@
 {
-    "name": "voyager-permissions",
+    "name": "voyager-2fa",
     "version": "1.0.0",
-    "description": "Permission system for Voyager II using spatie/laravel-permission",
+    "description": "Two-factor authentication for Voyager II",
     "scripts": {
         "build": "vite build",
         "watch": "vite build --mode development --watch"
