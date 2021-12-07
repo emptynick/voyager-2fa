@@ -13,10 +13,11 @@ export default defineConfig({
       fileName: 'voyager-2fa'
     },
     rollupOptions: {
-      external: ['vue'],
+      external: ['vue', 'axios'],
       output: {
         globals: {
           vue: 'Vue',
+          axios: 'axios',
         }
       }
     }
