@@ -23,8 +23,8 @@
         }
     },
     "require": {
-        "pragmarx/google2fa-laravel": "^2.0",
-        "bacon/bacon-qr-code": "^2.0",
+        "pragmarx/google2fa-laravel": "^2.1.1",
+        "bacon/bacon-qr-code": "^2.0.8",
         "voyager-admin/voyager": "2.x-dev"
     }
 }
